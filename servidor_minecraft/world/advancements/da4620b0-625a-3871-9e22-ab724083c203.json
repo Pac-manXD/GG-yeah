@@ -384,7 +384,8 @@
     "criteria": {
       "minecraft:skeleton": "2025-03-03 03:28:14 +0000",
       "minecraft:witch": "2025-03-28 02:48:04 +0000",
-      "minecraft:zombie": "2025-03-03 03:22:39 +0000"
+      "minecraft:zombie": "2025-03-03 03:22:39 +0000",
+      "minecraft:creeper": "2025-03-28 02:49:42 +0000"
     },
     "done": false
   },
