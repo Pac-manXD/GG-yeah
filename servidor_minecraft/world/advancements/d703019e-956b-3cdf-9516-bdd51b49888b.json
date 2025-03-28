@@ -436,6 +436,7 @@
     "criteria": {
       "apple": "2025-03-03 03:23:30 +0000",
       "cooked_chicken": "2025-03-03 03:23:33 +0000",
+      "rotten_flesh": "2025-03-28 03:41:14 +0000",
       "cooked_beef": "2025-03-07 06:55:11 +0000",
       "cooked_salmon": "2025-03-03 03:36:53 +0000"
     },
@@ -1491,6 +1492,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-03-28 03:38:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2025-03-28 02:19:21 +0000"
@@ -1506,6 +1513,18 @@
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-03-28 02:57:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-03-28 03:38:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-03-28 03:38:55 +0000"
     },
     "done": true
   },
