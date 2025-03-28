@@ -367,6 +367,7 @@
     "criteria": {
       "cooked_porkchop": "2025-03-03 03:24:28 +0000",
       "bread": "2025-03-03 03:38:41 +0000",
+      "rotten_flesh": "2025-03-28 02:45:50 +0000",
       "cooked_mutton": "2025-03-03 03:54:10 +0000",
       "cooked_beef": "2025-03-03 04:31:05 +0000",
       "porkchop": "2025-03-03 03:21:58 +0000"
@@ -382,6 +383,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-03-03 03:28:14 +0000",
+      "minecraft:witch": "2025-03-28 02:48:04 +0000",
       "minecraft:zombie": "2025-03-03 03:22:39 +0000"
     },
     "done": false
@@ -1550,6 +1552,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_terracotta": {
     "criteria": {
       "has_terracotta": "2025-03-28 02:36:03 +0000"
@@ -1562,6 +1576,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2025-03-28 02:36:03 +0000"
@@ -1571,6 +1591,12 @@
   "minecraft:recipes/building_blocks/magenta_terracotta": {
     "criteria": {
       "has_terracotta": "2025-03-28 02:36:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
     },
     "done": true
   },
@@ -1604,9 +1630,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-03-28 02:48:05 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_terracotta": {
     "criteria": {
       "has_terracotta": "2025-03-28 02:36:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-03-28 02:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
     },
     "done": true
   },
@@ -1619,6 +1669,18 @@
   "minecraft:recipes/building_blocks/brown_terracotta": {
     "criteria": {
       "has_terracotta": "2025-03-28 02:36:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-03-28 02:48:05 +0000"
     },
     "done": true
   },
